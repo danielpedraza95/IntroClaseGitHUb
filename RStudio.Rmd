@@ -1,0 +1,100 @@
+---
+title: "Untitled"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+daniel <- 120
+a
+```
+
+
+a```{r}
+a <- 50
+```{r}
+c<-rep(5,8)
+c<-rep("A",7)
+30>90
+
+```
+```{r}
+rep(5,8)
+```
+```{r}
+
+lista<-c(1:100)
+
+runif(100)
+
+runif(100,1,100)
+
+sample(100,10)
+
+?sample
+
+?print
+
+lista<-sample(100,30)
+
+sort(lista)
+
+lista[lista>17]
+
+casilla__15<-lista[15]
+
+seq(0,10,by=2)
+
+3==9/3
+
+15==14.99
+
+3==3 & 2<2
+
+3==3 | 2<2
+
+```
+```{r}
+lista<-c(1,7:9)
+```
+
+```{r}
+lista<-1:100
+
+lista[3]
+```
+
+```{r}
+iris
+
+iris[1,]
+iris[,1]
+iris[1,2]
+```
+```{r}
+library(tidyverse)
+```
+```{r}
+install.packages("tidyverse",dependencies = TRUE)
+```
+
+```{r}
+library(tidyverse)
+```
+```{r}
+library(tidyverse)
+```
+```{r}
+glimpse(iris)
+
+iris%>%
+glimpse()
+```
+```{r}
+iris%>%
+  ggplot(aes(Sepal.Length, fill= Species))+
+  geom_histogram()+
+  facet_wrap(~Species, scales = "free")
+  labs(title = "Datos largo del Sépalo")
